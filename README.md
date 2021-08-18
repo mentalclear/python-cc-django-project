@@ -1,2 +1,3 @@
-# python-cc-django-project
-Python Crash Course project with Django
+## Python Crash Course Project 
+
+This is a repo for Python Crash Course Learning Log project with Django
