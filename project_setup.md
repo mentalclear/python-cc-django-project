@@ -3,13 +3,13 @@
 1. Create a virtual environment
 2. Activate virtual environment
 3. Upgrade pip if needed:
-    ```python m pip install --upgrade pip```
+    ```python -m pip install --upgrade pip```
 
 4. Install Django: 
     ```pip install django```
 
 5. Create a project: 
-    ```django-admin startproject {project name} . ```
+    ```django-admin startproject {project name} . ```  <<< --- There's Dot!
 
 6. Create the DB:
  ``` python manage.py migrate ```
