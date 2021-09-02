@@ -10,4 +10,7 @@ urlpatterns = [
 
     # The page that shows all pizzas
     path('pizzas/', views.pizzas, name='pizzas'),
+
+    # The page that show all toppings for the pizza
+    path('pizzas/<int:pizza_id>', views.pizza_id, name='pizza_id'),
 ]

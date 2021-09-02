@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% extends 'pizzas/base.html' %}
+    {% block content %}
+    <h3>Pizza</h3>
+
+        <p>Toppings:</p>
+        <ul>
+            {% for topping in toppings %}
+                <li>
+                    {{ topping }}
+                </li>
+            {% empty %}
+                <li>No toppings.</li>
+            {% endfor %}
+        </ul>
+    {% endblock content %}
+</body>
+</html>
